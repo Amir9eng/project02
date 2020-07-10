@@ -8,6 +8,10 @@ body{
   font-size: 16px;
   font-family: Helvetica, sans-serif;
 }
+.container{
+  background-color: #E9EBF3;
+  height: 100vh;
+}
 nav{
   background-color: #3B5998;
   height: 86px;
@@ -69,4 +73,28 @@ margin-bottom: .8rem;
   color: #FFFFFF;
   text-align: center;
   margin: 0 .2rem;
+}
+main{
+  display: flex;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100%;
+  max-width: 1000px;
+
+}
+.gradient{
+  margin-top: 2.5rem;
+}
+.content-text{
+  color: #0E385F;
+  font-size: 20px;
+  font-weight: bold;
+  width: 70%;
+}
+.address-form{
+  display: flex;
+  flex-direction: column;
+}
+.radio-buttons{
+  display: flex;
 }
