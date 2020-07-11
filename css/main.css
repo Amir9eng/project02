@@ -8,15 +8,18 @@ body{
   font-size: 16px;
   font-family: Helvetica, sans-serif;
 }
+
 .container{
   background-color: #E9EBF3;
   height: 100vh;
 }
+
 nav{
   background-color: #3B5998;
   height: 86px;
   width: 100vw;
 }
+
 .content{
   color: #FFFFFF;
   margin: 0 auto;
@@ -24,6 +27,7 @@ nav{
   height: 100%;
   max-width: 1000px;
 }
+
 .logo{
   display: flex;
   align-items: center;
@@ -31,10 +35,12 @@ nav{
   justify-content: space-between;
   
 }
+
 .facebook{
   font-style: italic;
   font-size: 2rem;
 }
+
 input{
   background-color: #E8F0FE;
 }
@@ -44,20 +50,24 @@ input{
   display: flex;
   align-items: center;
 }
+
 .text{
   height: 64px;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .login{
   margin: 0 1rem;
   height: 64px;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .login p, .text p{
   margin: 0 0 .8rem;
-} 
+}
+
 input.login-password{
 margin-bottom: .8rem;
 }
@@ -74,6 +84,7 @@ margin-bottom: .8rem;
   text-align: center;
   margin: 0 .2rem;
 }
+
 main{
   display: flex;
   margin: 0 auto;
@@ -81,19 +92,67 @@ main{
   height: 100%;
   max-width: 1000px;
 }
+
 .gradient{
   margin-top: 2.5rem;
 }
+
 .content-text{
   color: #0E385F;
   font-size: 20px;
   font-weight: bold;
-  width: 70%;
+  width: 80%;
 }
+
+.creating-account h1{
+   font-size: 2.25rem;
+   font-weight: 600;
+   margin: 1.5rem 0 .5rem 0;
+   color: #333333;
+}
+
+.creating-account p{
+  font-size: 1.1875rem;
+  margin: 1rem 0;
+  font-weight: normal;
+  color: #8B8E93;
+}
+
+.first-name{
+  width: 175px;
+  height: 30px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 1.125rem;
+  padding: 8px 10px;
+  margin-bottom: .8rem;
+}
+
+.Surname{
+  width: 175px;
+  height: 30px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 1.125rem;
+  padding: 8px 10px;
+}
+
 .address-form{
   display: flex;
   flex-direction: column;
 }
+.address{
+  width: 350px;
+  height: 30px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin-bottom: .8rem;
+  font-size: 1.125rem;
+  color: #BABABA;
+  padding: 8px 10px;
+  font-weight: 200;
+}
+
 .radio-buttons{
   display: flex;
 }
