@@ -39,6 +39,7 @@ nav{
 .facebook{
   font-style: italic;
   font-size: 2rem;
+  font-weight: 800;
 }
 
 input{
@@ -180,9 +181,12 @@ main{
   margin-left: .3rem;
 }
 
+.radios{
+  margin-bottom: .7rem;
+}
+
 .flex{
   display: flex;
-  margin-bottom: .7rem;
  }
  .font{
    font-size: 0.6875rem;
@@ -233,19 +237,29 @@ main{
    font-size: 0.75rem;
  }
 
- ##Page-footer p{
-    color: #887388;
+ #Page-footer p{
+    color: #737373;
+ }
+ footer{
+   height:10vh;
+   width: 980px;
+   display: flex;
+   /* flex-direction: column; */
+   justify-content: center;
+   margin: auto;
  }
 
  #Page-footer a{
    margin-left: 1rem;
+   text-decoration: none;
+   color: #3B5998;
  }
 
  .contentcurve{
   border-bottom: 1px solid #dddfe2;
   font-size: 1px;
   height: 8px;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
  }
 
  .pagefooter{
@@ -254,3 +268,18 @@ main{
   flex-wrap: wrap;
   font-size: 0.75rem;
  }
+ .pagefooter a{
+    margin-right: 1rem;
+    margin-top: .4rem;
+    text-decoration: none;
+    color: #3B5998;
+ }
+
+ .pagefooter .class{
+   display: flex;
+ }
+
+.pagefooter .copyright{
+  margin-top: 1rem;
+  color: #737373;
+}
