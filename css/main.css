@@ -230,5 +230,27 @@ main{
 
  #Page-footer{
    display: flex;
+   font-size: 0.75rem;
  }
 
+ ##Page-footer p{
+    color: #887388;
+ }
+
+ #Page-footer a{
+   margin-left: 1rem;
+ }
+
+ .contentcurve{
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+ }
+
+ .pagefooter{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.75rem;
+ }
