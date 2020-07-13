@@ -222,3 +222,13 @@ main{
   text-decoration: none;
  }
 
+ .language-selector{
+  display: flex;
+  align-items: center;
+  height: 100%;
+ }
+
+ #Page-footer{
+   display: flex;
+ }
+
