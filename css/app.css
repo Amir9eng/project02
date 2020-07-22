@@ -5,3 +5,25 @@
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif; 
 }
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile{
+  position: relative;
+  
+}
+.count{
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+}
