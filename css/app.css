@@ -15,19 +15,31 @@ body{
   justify-content: space-between;
   height: 64px;
 }
+.search-nav{
+  display: flex;
+  background-color: #F0F2F5;
+}
+.input{
+  outline: none;
+  border-style: none;
+  background-color: #F0F2F5;
+}
+
 .count{
   position: absolute;
   width: 1rem;
   height: 1rem;
+  font-size: .8125rem;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   background-color: red;
   border-radius: 50%;
-  top: 0;
+  top: -9px;
   right: 0;
 }
+
 .profile{
   display: flex;
   align-items: center;
@@ -41,7 +53,7 @@ body{
 .right-nav{
   display: flex;
   align-items: center;
-  background-color: #F0F2F5;
+  
 }
 
 .spacer{
@@ -52,6 +64,7 @@ body{
 .profilepic{
   height: 40px;
   width: 40px;
+  border-radius: 50%;
 }
 
 /* 
@@ -79,6 +92,17 @@ body{
   outline: none;
   background-color: #F0F2F5 ;
 } */
+.plus {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #f0f2ff;
+  padding: 0.3rem;
+  margin-right: .5rem;
+}
+.right-nav:last-child{
+  margin-right: .7rem;
+}
 
 
 
