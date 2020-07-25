@@ -14,15 +14,40 @@ body{
   align-items: center;
   justify-content: space-between;
   height: 64px;
+  box-shadow: 0 0 .1rem;
 }
-.search-nav{
+form {
   display: flex;
-  background-color: #F0F2F5;
+  align-items: center;
+  padding: 0 1rem;
 }
-.input{
-  outline: none;
-  border-style: none;
+.facebook{
+  margin-left: .3rem;
+}
+.home .tv .group .tile{
+
+}
+
+
+.search-nav {
+  display: flex;
+  align-items: center;
+  border-radius: 5rem;
   background-color: #F0F2F5;
+  padding-left: 10px;
+  
+}
+
+.input {
+  border: none;
+  background: none;
+  outline: none;
+  height: 3rem;
+  width: 15rem;
+  max-width: 100%;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-left: 10px;
 }
 
 .count{
@@ -48,6 +73,7 @@ body{
   width: 2rem;
   border-radius: 50%;
   height: 2rem;
+  margin: 0 3rem;
 }
 
 .right-nav{
