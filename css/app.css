@@ -2,17 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
+  /* font-size: 16px; */
   font-family: Arial, Helvetica, sans-serif; 
 }
-nav{
+body{
+  font-size: 16px;
+  
+}
+ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.profile{
-  position: relative;
-  
+  height: 64px;
 }
 .count{
   position: absolute;
@@ -27,3 +28,58 @@ nav{
   top: 0;
   right: 0;
 }
+.profile{
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 2rem;
+  border-radius: 50%;
+  height: 2rem;
+}
+
+.right-nav{
+  display: flex;
+  align-items: center;
+  background-color: #F0F2F5;
+}
+
+.spacer{
+  display: flex;
+  flex-grow: .4;
+}
+
+.profilepic{
+  height: 40px;
+  width: 40px;
+}
+
+/* 
+.brand-logo{
+  display: flex;
+  align-items: center;
+}
+.middle-class{
+  display: flex;
+}
+
+
+.profilepic{
+  border-radius: 30px;
+}
+
+.search{
+  
+  border-radius: 10px;
+  align-items: center;
+  
+}
+.search input{
+  border: none;
+  outline: none;
+  background-color: #F0F2F5 ;
+} */
+
+
+
+
