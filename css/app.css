@@ -129,6 +129,11 @@ form {
 .right-nav:last-child{
   margin-right: .7rem;
 }
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr 2fr 1fr);
+}
+
 
 
 
