@@ -131,7 +131,12 @@ form {
 }
 .container{
   display: grid;
-  grid-template-columns:  1fr 2fr 1fr;
+  grid-template-areas: "sidebar-left main-content sidebar-right";
+  grid-template-columns:24% 50% 22%;
+  margin-top: 20px;
+  height: 90.5vh;
+
+  
 }
 .profile-pic{
   width: 40px;
@@ -144,6 +149,10 @@ form {
 .friendspix{
   height: 120px;
   width: 80px;  
+}
+
+.first-card{
+  height: ;
 }
 
 
@@ -160,7 +169,6 @@ form {
 
 
 .cardbar{
- 
   width: 550px;
   height: 120px;
   background-color:white;
@@ -213,7 +221,8 @@ form {
   margin-top: 2rem;
   justify-content: center;
   text-decoration: none;
-  color: #f0f2f5;
+  color: grey;
+
 }
 #downline a:hover{
   background-color: #f5f6f7;
