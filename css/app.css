@@ -130,13 +130,12 @@ form {
   margin-right: .7rem;
 }
 .container{
+  background-color: #F0F2F5;
   display: grid;
   grid-template-areas: "sidebar-left main-content sidebar-right";
   grid-template-columns:24% 50% 22%;
-  margin-top: 20px;
   height: 90.5vh;
-
-  
+  margin-top: 1rem;
 }
 .profile-pic{
   width: 40px;
@@ -152,8 +151,31 @@ form {
 }
 
 .first-card{
-  height: ;
+  height: 10rem;
+  width: 7.6rem;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+
+.profile-pic2{
+  width: 7.6rem;
+  height: 6rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 180px;
+}
+.plus-flaticon{
+  margin: auto;
+}
+
+
 
 
 
