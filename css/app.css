@@ -296,7 +296,17 @@ img.plus-flaticon{
 }
 
 .rooms{
-  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 550px;
+  background-color: white;
+  margin-top: 1rem;
+}
+.room img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
 }
 
 
