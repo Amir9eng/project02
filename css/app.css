@@ -158,7 +158,7 @@ width: 100%;
 margin: 2rem 0;
 height: 12rem;
 justify-content: space-between;
-
+cursor: pointer;
 }
 .first-card{
   width: 18%;
@@ -241,7 +241,6 @@ img.plus-flaticon{
   align-items: center;
   justify-content: flex-start;
   border-bottom: 0.01rem #F0F2F5 solid ;
-  margin-top: 5rem;
 
 }
 .mukhtar{
