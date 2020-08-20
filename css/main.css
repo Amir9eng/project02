@@ -77,13 +77,15 @@ margin-bottom: .8rem;
   color: #9CB4D8;
 }
 
-.button{
+  button{
   background-color: #4267B2;
   font-size: 12px;
   font-weight: bold;
   color: #FFFFFF;
   text-align: center;
   margin: 0 .2rem;
+  border: none;
+  outline: none;
 }
 
 main{

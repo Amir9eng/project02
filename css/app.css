@@ -229,18 +229,21 @@ img.plus-flaticon{
 
 
 .cardbar{
+
   width: 550px;
-  height: 120px;
   background-color:white;
   margin-top: 2rem;
   margin-left: 2rem;
   border-radius: 10px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
 }
 .class{
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-bottom: 0.01rem #F0F2F5 solid ;
+  border-bottom: 2px #F0F2F5 solid ;
 
 }
 .mukhtar{
@@ -268,13 +271,13 @@ img.plus-flaticon{
   display: flex;
   
 } 
-#downline{
+#downlines{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 24px;
 }
-#downline a{
+#downlines a{
   display: flex;
   margin-left: 2rem;
   margin-top: 2rem;
@@ -282,12 +285,17 @@ img.plus-flaticon{
   text-decoration: none;
   color: grey;
 }
-#downline a:hover{
+#downlines a:hover{
   background-color: #f5f6f7;
 }
 .p{
   margin-left: .5rem;
 }
+.downline a{
+  display: flex;
+  align-items: center;
+}
+
 
 
 
