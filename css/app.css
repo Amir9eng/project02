@@ -133,7 +133,7 @@ form {
   background-color: #F0F2F5;
   display: grid;
   grid-template-areas: "sidebar-left main-content sidebar-right";
-  grid-template-columns:24% 50% 22%;
+  grid-template-columns:29% 44% 27%;
   height: 90.5vh;
   margin-top: 1rem;
 }
@@ -150,32 +150,53 @@ form {
   width: 80px;  
 }
 
-.first-card{
-  height: 10rem;
-  width: 7.6rem;
-  background-color: yellow;
+section{
   display: flex;
   flex-direction: column;
+}
+.cards{
+display: flex;
+width: 100%;
+margin: 2rem 0;
+height: 12rem;
+justify-content: space-between;
+
+}
+.first-card{
+  width: 18%;
+  height: 100%;
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, .1);
+}
+.first-card img{
+  height: 70%;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.first-card span{
+  height: 20%;
+  width: auto;
+  display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
-  position: relative;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
 
-.profile-pic2{
-  width: 7.6rem;
-  height: 6rem;
-  border-radius: 10px;
+}
+img.plus-flaticon{
+  width: 36px;
+  height: 36px;
   position: absolute;
-  top: 180px;
+  border: 5px solid white;
+  border-radius: 50%;
+  right: 35%;
+  top: 60%;
 }
-.plus-flaticon{
-  margin: auto;
+.card{
+  width: 18%;
+
 }
-
-
 
 
 
@@ -244,7 +265,6 @@ form {
   justify-content: center;
   text-decoration: none;
   color: grey;
-
 }
 #downline a:hover{
   background-color: #f5f6f7;
