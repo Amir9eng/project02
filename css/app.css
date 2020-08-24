@@ -302,6 +302,8 @@ img.plus-flaticon{
   width: 550px;
   background-color: white;
   margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
 }
 .room img{
   width: 2rem;
@@ -310,7 +312,13 @@ img.plus-flaticon{
 }
 .video-room{
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+.spacer3{
+  display: flex;
+  flex-grow: .9;
 }
 
 
