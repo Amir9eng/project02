@@ -308,6 +308,10 @@ img.plus-flaticon{
   height: 2rem;
   border-radius: 50%;
 }
+.video-room{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
