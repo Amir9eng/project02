@@ -306,9 +306,16 @@ img.plus-flaticon{
   border-radius: 10px;
 }
 .room img{
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.video-room a{
+  text-decoration: none;  
+}
+.minus{
+  margin-left: .5rem;
 }
 .video-room{
   display: flex;
